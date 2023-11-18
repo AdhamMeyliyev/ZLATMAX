@@ -1,8 +1,9 @@
-@import "variables";
-@import "container";
-@import "button";
-@import "footer";
-@import "header";
-@import "hero";
-@import "nav";
-@import "services";
+@use "variables";
+@use "container";
+@use "button";
+@use "footer";
+@use "header";
+@use "hero";
+@use "nav";
+@use "services";
+@use "katolog";
