@@ -1,4 +1,4 @@
-$btn-padding:2px 98px;
+$btn-padding:10px 73px;
 $btn-bg-color:#E8AA31;
 $btn-color:#FFFFFF;
 $btn-border-radius:3px;
@@ -8,7 +8,7 @@ $btn-outline:none;
 
 
 .hero--left-btn{
-    padding: 10px 53px;
+    padding: $btn-padding;
     background-color: $btn-bg-color;
     color:$btn-color;
     border-radius: $btn-border-radius;
@@ -17,6 +17,8 @@ $btn-outline:none;
     outline: $btn-outline;
     margin-bottom: 30px;
     transition: all .3s ease;
+   
+
 
 }
 
@@ -32,3 +34,37 @@ $btn-outline:none;
 .hero--left-btn:active{
     opacity: 0.6;
 }
+
+.best-seller__btn{
+    padding: $btn-padding;
+    background-color: $btn-bg-color;
+    color:$btn-color;
+    border-radius: $btn-border-radius;
+    font-size: $btn-font-size;
+    border:$btn-border-style;
+    outline: $btn-outline;
+    margin-bottom: 30px;
+    display: flex;
+    align-items:center;
+    gap: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: all .3s ease;
+
+}
+
+.best-seller__btn:hover{
+    border: 3px solid #E8AA31;
+    background-color: #fff;
+    color:#E8AA31;
+    font-weight: bold;
+    border-radius:10px;
+    /* padding: 10px 25px; */
+    transition: all .3s ease;
+
+}
+
+.best-seller__btn:active{
+    opacity: 0.6;
+}
+
