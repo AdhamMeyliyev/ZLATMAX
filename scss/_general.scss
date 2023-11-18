@@ -1,0 +1,27 @@
+$bg-color:#141414;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Livvic', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+
+}
+
+
+ol,ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
