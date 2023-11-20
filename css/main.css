@@ -396,6 +396,9 @@ a {
   gap: 15px;
 }
 
+.best-seller {
+  margin-bottom: 120px;
+}
 .best-seller .best-seller__list .best-seller__list__item {
   width: 305px;
   height: 600px;
@@ -473,6 +476,8 @@ a {
   height: 761px;
   background-image: url(/assets/image/nev-sec__bg-image.svg);
   width: 100%;
+  margin-top: 164px;
+  margin-bottom: 120px;
 }
 .new-sec .container {
   display: flex;

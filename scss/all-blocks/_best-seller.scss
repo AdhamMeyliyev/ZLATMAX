@@ -1,7 +1,3 @@
-@mixin best-seller__cart{
-
-}
-
 .best-seller--top{
     display: flex;
     align-items: center;
@@ -15,6 +11,7 @@
 }
 
 .best-seller{
+    margin-bottom: 120px;
     .best-seller__list{
         .best-seller__list__item{
             width: 305px;
