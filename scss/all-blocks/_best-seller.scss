@@ -18,7 +18,8 @@
             height: 600px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             background-color: #fff;
-
+            transition: all .3s ease;
+           
             .best-seller__img{
                 width: 304px;
                 height: 295px;
@@ -80,6 +81,11 @@
                     }
                 }
             }
+        }
+
+        .best-seller__list__item:hover{
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            transition: all .3s ease;
         }
     }
 }

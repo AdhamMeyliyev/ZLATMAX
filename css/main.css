@@ -53,6 +53,7 @@ a {
   font-weight: bold;
   transition: all 0.3s ease;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .hero--left-btn:active {
@@ -84,6 +85,7 @@ a {
   border-radius: 10px;
   /* padding: 10px 25px; */
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .best-seller__btn:active {
@@ -404,6 +406,7 @@ a {
   height: 600px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #fff;
+  transition: all 0.3s ease;
 }
 .best-seller .best-seller__list .best-seller__list__item .best-seller__img {
   width: 304px;
@@ -457,6 +460,10 @@ a {
 }
 .best-seller .best-seller__list .best-seller__list__item .best-seller__span3 .best-seller__span3__desc .best-seller__span3__sp {
   gap: 15px;
+}
+.best-seller .best-seller__list .best-seller__list__item:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.3s ease;
 }
 
 .best-seller__list {
