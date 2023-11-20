@@ -1,5 +1,12 @@
 $bg-color:#141414;
 
+@mixin wrapper{
+  display: flex;
+  align-items:center;
+  gap: 10px;
+}
+
+
 *,
 *::before,
 *::after {

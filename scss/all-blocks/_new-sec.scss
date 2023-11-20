@@ -1,0 +1,53 @@
+.new-sec{
+    height: 761px;
+    background-image: url(/assets/image/nev-sec__bg-image.svg);
+    width: 100%;
+
+    .container{
+        display: flex;
+        /* align-items:center; */
+        justify-content: space-between;
+
+        .new-sec--left__h2{
+            font-size: $font-size + 12px;
+            line-height: 46px;
+            color:#ffffff;
+            margin-top: 18px;
+            margin-left: 37px;
+        }
+
+        .new-sec--left__desc{
+            width: 336px;
+            font-size: $font-size;
+            line-height: 27px;
+            color:#fff;
+            margin-left: 37px;
+            margin-top: 33px;
+
+        }
+
+        .big__new{
+            width: 220px;
+            @include wrapper;
+            margin-left: 37px;
+            margin-top: 60px;
+
+            .big__new__desc{
+                font-size: $font-size + 2px;
+                line-height: 46px;
+                color: #e8aa31;
+            }
+        }
+    }
+}
+
+.new-sec__list-gap{
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.new-sec--bottom__icon{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}

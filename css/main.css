@@ -400,6 +400,7 @@ a {
   width: 305px;
   height: 600px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
 }
 .best-seller .best-seller__list .best-seller__list__item .best-seller__img {
   width: 304px;
@@ -466,4 +467,54 @@ a {
   display: block;
   margin: 0 auto;
   margin-top: 60px;
+}
+
+.new-sec {
+  height: 761px;
+  background-image: url(/assets/image/nev-sec__bg-image.svg);
+  width: 100%;
+}
+.new-sec .container {
+  display: flex;
+  /* align-items:center; */
+  justify-content: space-between;
+}
+.new-sec .container .new-sec--left__h2 {
+  font-size: 30px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-top: 18px;
+  margin-left: 37px;
+}
+.new-sec .container .new-sec--left__desc {
+  width: 336px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin-left: 37px;
+  margin-top: 33px;
+}
+.new-sec .container .big__new {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 37px;
+  margin-top: 60px;
+}
+.new-sec .container .big__new .big__new__desc {
+  font-size: 20px;
+  line-height: 46px;
+  color: #e8aa31;
+}
+
+.new-sec__list-gap {
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.new-sec--bottom__icon {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
