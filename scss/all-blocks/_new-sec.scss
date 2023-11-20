@@ -4,6 +4,8 @@
     width: 100%;
     margin-top: 164px;
     margin-bottom: 120px;
+    position: relative;
+
 
     .container{
         display: flex;
@@ -52,4 +54,14 @@
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+.new-sec--top__box{
+    width: 780px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
 }
