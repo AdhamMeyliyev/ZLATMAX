@@ -70,3 +70,37 @@ $btn-outline:none;
     opacity: 0.6;
 }
 
+.lights__btn{
+    padding: $btn-padding;
+    background-color: $btn-bg-color;
+    color:$btn-color;
+    border-radius: $btn-border-radius;
+    font-size: $btn-font-size;
+    border:$btn-border-style;
+    outline: $btn-outline;
+    margin-bottom: 30px;
+    display: flex;
+    align-items:center;
+    gap: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: all .3s ease;
+
+}
+
+.lights__btn:hover{
+    border: 3px solid #E8AA31;
+    background-color: #fff;
+    color:#E8AA31;
+    font-weight: bold;
+    border-radius:10px;
+    /* padding: 10px 25px; */
+    transition: all .3s ease;
+    cursor:pointer;
+
+}
+
+.lights__btn:active{
+    opacity: 0.6;
+}
+
