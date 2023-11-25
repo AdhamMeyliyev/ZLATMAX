@@ -144,6 +144,28 @@ a {
   opacity: 0.6;
 }
 
+.footer {
+  background-image: url(/assets/image/footer--top__bg-image.svg);
+}
+.footer .footer--top {
+  height: 331px;
+}
+.footer .footer--top .footer--top__h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 46px;
+  color: #e8aa31;
+  text-align: center;
+  padding-top: 30px;
+}
+.footer .footer--top .footer--top__desc {
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin-top: 30px;
+  text-align: left;
+}
+
 .header {
   height: 260px;
   background-color: #000;
