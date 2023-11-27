@@ -109,3 +109,44 @@
     line-height: 46px;
     height: #5a5858;
 }
+
+@media only screen and (max-width:360px){
+    .best-seller__desc, .best-seller__icon{
+        display: none;
+    }
+
+    .best-seller__h2{
+        margin-left: 80px;
+        margin-bottom: -20px;
+    }
+
+    .best-seller{
+        margin-top: -140px;
+    }
+
+    .best-seller__list_1{
+        margin-left: 9px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .best-seller--bottom__img{
+        display: none !important;
+    }
+    .best-seller__h2__3{
+        text-align: center;
+        margin-left: 120px !important;
+    }
+
+    .best-seller__list_3{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .mr_top{
+        margin-top: 100px !important;
+    }
+}

@@ -65,3 +65,46 @@
     top: 0px;
 
 }
+
+
+@media only screen and (max-width:360px){
+    .new-sec{
+        height: 2493px;
+        width: 330px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-bottom: 200px !important;
+
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .new-sec--left__h2{
+            font-size: 24px;
+            line-height: 46px;
+            text-align: center;
+            margin-left: -15px;
+        }
+
+        .new-sec--left__desc{
+            font-size: 16px;
+            line-height: 27px;
+            width: 275px !important;
+            text-align: left;
+            /* margin-left: -10px !important; */
+        }
+    }
+
+    .big__new{
+        margin-bottom: 160px;
+        margin-top:10px !important;
+    }
+    
+    .best-seller__list_2{
+        margin-left: 8px !important;
+    }
+}

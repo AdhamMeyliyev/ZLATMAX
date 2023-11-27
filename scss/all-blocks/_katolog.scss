@@ -72,3 +72,72 @@
         }
     }
 }
+
+.magazin{
+    display: none;
+}
+
+
+@media only screen and (max-width:360px){
+    .katolog__list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .magazin{
+        display: block;
+        width: 290px;
+        height: 1022px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .magazin__heading{
+        font-size: 20px;
+        line-height: 32px;
+        width: 280px;
+        padding: 15px 20px;
+    }
+
+    .magazin__desc{
+        font-size: $font-size - 2px;
+        line-height: 24px;
+        width: 280px;
+        padding: 15px 20px;
+
+
+    }
+
+    .katolog__list__item{
+        width: 290px !important;
+        height: 300px !important;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .katolog__list{
+        margin-top: 50px;
+    }
+
+    .katolog__img1, .katolog__img3, .katolog__img5{
+        rotate: -90deg;
+        width: 483px !important;
+        height: 246px !important;
+        position: absolute;
+        left: -80px;
+        top: 100px;
+    }
+
+    .katolog__img2, .katolog__img4, .katolog__img6{
+        rotate: -270deg;
+        width: 483px !important;
+        height: 246px !important;
+        position: absolute;
+        left: -120px;
+        top: 100px;
+    }
+}

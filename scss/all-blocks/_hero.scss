@@ -2,6 +2,8 @@
     height: 788px;
     background-image: url(/assets/image/hero-bg--img.svg);
     z-index: 80;
+
+    
     
     .container{
         display: flex;
@@ -100,3 +102,64 @@
 
 }
 
+
+
+@media only screen and (max-width:360px){
+    /* .hero{
+        background-color: black !important;
+        background-image:none;
+    } */
+
+    .hero--left__h2{
+        font-size: 23px !important;
+        line-height: 36px;
+        width: 278px;
+        text-align:left;
+    }
+
+    .hero--left__h2-2{
+        font-size: 18px !important;
+        line-height: 46px !important;
+        
+    }
+
+    .hero--left__desc{
+        width: 289px !important;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: -45px !important;
+    }
+
+    .hero{
+        height: 1600px !important;
+        background-size: cover;
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap: -180px !important;
+        }
+    }
+
+    .hero--left__icon, .hero--plus{
+        display: none;
+    }
+
+    .hero--right__img{
+        width: 260px;
+        height: 290px;
+        margin-top: -390px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hero--bottom__list{
+        margin-left: -3px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+
+   
+}

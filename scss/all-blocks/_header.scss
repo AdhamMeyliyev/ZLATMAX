@@ -183,3 +183,23 @@
     border-bottom:3px solid #E8AA31;
     transition: all .3s ease;
 }
+
+
+
+
+@media only screen and (max-width:360px){
+   
+
+    .header__nav--top__kabinet__icon, .header__nav--top__kabinet__icon--desc, .haeder__nav--top__item, .header__input__icon,.header__middile__input, .header__middile--right, .header__nav--bottom{
+        display: none;
+    }
+    
+    .header__middile__logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header{
+        height: 130px;
+    }
+}
