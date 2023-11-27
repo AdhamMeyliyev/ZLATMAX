@@ -182,3 +182,71 @@
 .lable_text{
     margin-left: 32.5px;
 }
+
+@media only screen and (max-width:360px){
+    .footer--top__desc{
+        width: 262px;
+        display: block;
+        height: 744px !important;
+        margin-bottom: 120px !important;
+        text-align: center !important;
+        margin-left: 30px !important;
+    }
+
+    .footer--main__list1{
+        display: flex;
+        flex-direction: column;
+        gap: -10px !important;
+        margin-top: 710px;
+    }
+
+    .footer{
+        height: 3634px;
+
+    }
+
+    .footer--main__item1{
+        margin-top: -70px !important;
+        text-align: center;
+        margin-left: 60px !important;
+
+       }
+
+    .footer--main__list2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer--main__item2{
+        margin-left: 7px ;
+        text-align: center !important;
+    }
+
+    .footer--main__item2_1{
+        margin-left: 60px !important;
+    }
+
+    .footer__input{
+        width: 224px;
+        margin-left: -40px !important;
+    }
+
+    .footer--bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer--bottom__desc{
+        width: 275px !important;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .footer--bottom__desc2{
+        width: 275px !important;
+        text-align: center;
+        margin-left: 25px;
+    }
+}

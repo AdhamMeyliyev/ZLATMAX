@@ -45,3 +45,16 @@
         }
     }
 }
+
+
+@media only screen and (max-width:360px){
+    .our-articles__list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px !important;
+    }
+
+    .our-articles__h2{
+        text-align: center;
+    }
+}

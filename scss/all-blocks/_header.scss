@@ -184,6 +184,10 @@
     transition: all .3s ease;
 }
 
+.rwd__icons{
+    display: none;
+}
+
 
 
 
@@ -193,6 +197,10 @@
     .header__nav--top__kabinet__icon, .header__nav--top__kabinet__icon--desc, .haeder__nav--top__item, .header__input__icon,.header__middile__input, .header__middile--right, .header__nav--bottom{
         display: none;
     }
+
+    .header__middile{
+        margin-top: -30px;
+    }
     
     .header__middile__logo{
         display: block;
@@ -200,6 +208,17 @@
     }
 
     .header{
-        height: 130px;
+        height: 155px;
+    }
+
+    .rwd__icons{
+        display: block !important;
+        .container{
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 320px;
+        padding-top: 20px;
+        /* padding-bottom: -40px !important; */
+        }
     }
 }
